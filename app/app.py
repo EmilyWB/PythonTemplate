@@ -34,7 +34,7 @@ def main():
     logger, load our config file, and demonstrate using the C extension modules
     """
     
-    configLog.config("app")
+    configLog.config(__name__)
 
     # Logger levels: debug, info, warning, error, critical
     Logger.info('App started')

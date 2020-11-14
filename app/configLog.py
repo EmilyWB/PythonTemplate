@@ -11,7 +11,7 @@ from datetime import datetime
 ============================================================================="""
 # Module logger
 logger = logging.getLogger(__name__)
-
+logFileTemplate = "logs/%s_%s.log"
 
 """=============================================================================
                                     FUNCTIONS
@@ -29,7 +29,7 @@ def config(namePrefix):
     # new one when the application is run
     now = datetime.now() 
     date_time = now.strftime("%d%m%Y_%H%M%S")
-    logFilename="logs/"+namePrefix+"_"+date_time+".log"
+    logFilename = logFileTemplate % (namePrefix, date_time)
 
     logging.basicConfig(format='%(asctime)-24.24s: %(name)-16.16s: '+ \
                         '%(levelname)-6.6s: %(message)s',
