@@ -2,8 +2,6 @@
 
 # Python Template
 
----
-
 <!-- https://shields.io -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Emily_Birch-blue)](https://www.linkedin.com/in/emily-w-birch/)
 [![License](https://img.shields.io/github/license/EmilyWB/PythonTemplate)](LICENSE)
