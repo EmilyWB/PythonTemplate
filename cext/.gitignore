@@ -1,0 +1,2 @@
+# Ignore the local CFFI build directory
+build/
